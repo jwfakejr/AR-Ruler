@@ -13,6 +13,9 @@
 		ECE103412110A30500619106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE1033F2110A30500619106 /* Main.storyboard */; };
 		ECE103432110A30600619106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE103422110A30600619106 /* Assets.xcassets */; };
 		ECE103462110A30600619106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE103442110A30600619106 /* LaunchScreen.storyboard */; };
+		ECE1034E2111FD6500619106 /* AR Ruler in Resources */ = {isa = PBXBuildFile; fileRef = ECE1034D2111FD6400619106 /* AR Ruler */; };
+		ECE103502111FD9F00619106 /* AR Ruler in Resources */ = {isa = PBXBuildFile; fileRef = ECE1034F2111FD9F00619106 /* AR Ruler */; };
+		ECE103522111FE7000619106 /* AR Ruler in Resources */ = {isa = PBXBuildFile; fileRef = ECE103512111FE7000619106 /* AR Ruler */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ECE103422110A30600619106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE103452110A30600619106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE103472110A30600619106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE1034D2111FD6400619106 /* AR Ruler */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AR Ruler"; sourceTree = "<group>"; };
+		ECE1034F2111FD9F00619106 /* AR Ruler */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AR Ruler"; sourceTree = "<group>"; };
+		ECE103512111FE7000619106 /* AR Ruler */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AR Ruler"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				ECE103382110A30500619106 /* AR Ruler */,
+				ECE1034D2111FD6400619106 /* AR Ruler */,
 				ECE103372110A30500619106 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,9 +63,11 @@
 		ECE103382110A30500619106 /* AR Ruler */ = {
 			isa = PBXGroup;
 			children = (
+				ECE1034F2111FD9F00619106 /* AR Ruler */,
 				ECE103392110A30500619106 /* AppDelegate.swift */,
 				ECE1033B2110A30500619106 /* art.scnassets */,
 				ECE1033D2110A30500619106 /* ViewController.swift */,
+				ECE103512111FE7000619106 /* AR Ruler */,
 				ECE1033F2110A30500619106 /* Main.storyboard */,
 				ECE103422110A30600619106 /* Assets.xcassets */,
 				ECE103442110A30600619106 /* LaunchScreen.storyboard */,
@@ -126,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE1033C2110A30500619106 /* art.scnassets in Resources */,
+				ECE103502111FD9F00619106 /* AR Ruler in Resources */,
+				ECE103522111FE7000619106 /* AR Ruler in Resources */,
 				ECE103462110A30600619106 /* LaunchScreen.storyboard in Resources */,
+				ECE1034E2111FD6500619106 /* AR Ruler in Resources */,
 				ECE103432110A30600619106 /* Assets.xcassets in Resources */,
 				ECE103412110A30500619106 /* Main.storyboard in Resources */,
 			);
